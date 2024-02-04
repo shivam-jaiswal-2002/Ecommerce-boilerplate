@@ -4,7 +4,7 @@
 # Reg No. 20BPS1148
 
 1) Download the files from repository or clone it in your system
-2) Go in the respective directory and use "npm install". The install json server package  by "npm install json-server".
+2) Go in the respective directory and use "npm install". Then install json server package  by "npm install json-server".
 3) Now inside your main directory to start the json server run "npx json-server --watch db.json --port 3000" . Make sure that port 3000 is free .
 4) Now open new terminal and go inside main directory run "npm start"
 5) Now your react app is running
