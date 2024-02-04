@@ -1,81 +1,64 @@
-# Ecommerce (React) Coding Assessment
+# TanxFi Coding Assignment
+# Shivam Jaiswal
+# Frontend Assignment (React)
+# Reg No. 20BPS1148
 
-## Overview
+1) Download the files from repository or clone it in your system
+2) Go in the respective directory and use "npm install". The install json server package  by "npm install json-server".
+3) Now inside your main directory to start the json server run "npx json-server --watch db.json --port 3000" . Make sure that port 3000 is free .
+4) Now open new terminal and go inside main directory run "npm start"
+5) Now your react app is running
+6) If you get react-router-dom module not found error the run this command in terminal : "npm install react-router-dom" and restart the react app.
 
-To complete this assessment, you will need to use this [Ecommerce-boilerplate](https://github.com/gurukishore111/Ecommerce-boilerplate) web app.
+# The interface will be looking like this
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/f5245d15-9bd8-412c-9187-f388fa724c4c)
 
-The purpose of this assessment is to assess your **skills and approach to composing a simple web app** given an API feed.
+Firstly a new user need to register himself/herself on the create an account option
 
-## What to do?
+# Our endpoint is running at "http://localhost:3000/users" you can see the current users registered
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/d60db91b-8741-4035-b6cd-66eb1a37a208)
 
-Your goal is to implement an eCommerce application. The CSS framework/library is totally up to you.
+One user already regsitered .
+Lets add a new user from create an account page.
 
-Although it's a very basic exercise, we will be looking for simple, well-designed, well-commented, and tested code in the submission.
+#This is how our register page looks like :
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/55e55425-c5f0-4520-bdc2-5caabc72dc98)
 
-Please include a `README` with setup instructions and any other documentation you created as part of your solution.
+Lets add a new user
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/2f5ea71b-e464-44f9-bf0a-181b8612e905)
 
-Also, add very short info for the following to your `README`:
+Now we can see a new user got added in our json server:
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/c4611e7e-68f6-4ed5-bd54-8bfd809c7123)
 
-- Describe all the application functionalities
-- Are there any improvements you could make to your submission?
-- What would you do differently if you were allocated more time?
+Now with the correct credentials login you will be redirected to product page:
 
-Once you complete implementation, please add the link to the hosted repository (e.g. Github). Alternatively, you may submit your code as a ZIP file too.
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/73d38d6d-d1a5-4c72-8ab1-3a7b648551c7)
 
-(NOTE: You have to use the latest version of v18 and react-router-dom v6)
+Click on any image it will show the image information
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/9b27bb05-8e30-4cd1-9d37-175ab0157f2d)
 
-## How should the application work?
+To add to cart in the product page just click on the add to cart option under each item the icon will be highlighted as here i have selected the 1st, 2nd and 4th item
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/2ee1ff61-c092-45db-8454-d00f36c597bd)
 
-The user of this react application should be able to view all the products. The application should have the following workflow,
+Now to view your cart click on the cart button in the navbar at right corner 
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/ed3f7209-663b-4dc4-b0f5-96e4d90151c1)
 
-1. Create the login/register functionality.
-2. Once the user is authenticated
-3. Users can add the products to the cart page
-4. Also user can add their favourite products
+Click on place order
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/253d92c4-5010-4de9-a4e9-b27a6e237c4b)
 
-## Development Setup
+We also have favorite functionality click on the heart icon on product page the item will be added to favorite page. The heart will be highlighted in red if we add it to favorite
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/90d84741-865e-45c9-a60b-fcc4c5f89a19)
 
-- Clone this repo
-- `npm install` - To install the dependencies
-- `npm run server` - To start the JSON server
-- `npm start` - To start the react app
+Click on view favorite button at top to view the favorite page:
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/2d200d53-ce43-4c85-a42b-8f7e612da7da)
 
-## This project's user interface should like this.
+Click on cross icon to remove it from favorite
+![image](https://github.com/shivam-jaiswal-2002/TanXfi-Assignment/assets/76699472/815aee40-cf33-4e3b-99b9-844055d08389)
 
-### Login/Register page
+Thank You for your time
+I hope you liked my project
 
-<img width="1512" alt="Screenshot 2022-07-24 at 10 44 13 AM" src="https://user-images.githubusercontent.com/52570524/180701451-5ccce009-0384-426c-b1bc-d7536fd7b142.png">
-
-### Home page
-
-<img width="1512" alt="Screenshot 2022-07-24 at 10 45 58 AM" src="https://user-images.githubusercontent.com/52570524/180701523-b679c753-68ff-47f1-9a1b-f4cc04d88fea.png">
-
-### Product detail page
-
-<img width="675" alt="Screenshot 2022-07-24 at 10 53 17 AM" src="https://user-images.githubusercontent.com/52570524/180701655-7c3d3120-ff81-445a-81d9-b2152db8a776.png">
-
-### Cart page
-
-<img width="1415" alt="Screenshot 2022-07-24 at 10 50 18 AM" src="https://user-images.githubusercontent.com/52570524/180701661-a587033d-4616-40f8-9260-dfd3e8b97152.png">
-
-<img width="1472" alt="Screenshot 2022-07-24 at 10 51 16 AM" src="https://user-images.githubusercontent.com/52570524/180701674-31c7e11c-56b3-4f24-83c4-e9d582c4b3f8.png">
-
-## API Usage
-
-API can be launched using npm run server.
-| Endpoint | Result |
-|------------------------------|-----------------------------------------------------|
-| /users | Lists all available users |
-| /products | Lists all available products |
-| /orders | Lists all available orders  
-| /favourites | Lists all available favourites
-
-Refer - [JSON sever](https://www.npmjs.com/package/json-server) docs for more information
-
-## Bonus
-
-- Feel free to add functionality (not mandatory)
-- Use redux/context for state management
-- Well explained readme (screenshot etc)
-
----
+# Made By
+# Shivam Jaiswal
+# Reg No. 20BPS1148
+# Email : shiv2002am@gmail.com
