@@ -11,7 +11,7 @@ function LoginPage() {
   useEffect(() => {
     const authenticateUser = async () => {
       try {
-        const response = await fetch('https://ecommerce-boilerplate-kappa.vercel.app/users', {
+        const response = await fetch('https://localhost:3000/users', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
