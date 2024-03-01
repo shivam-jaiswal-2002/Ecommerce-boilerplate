@@ -8,7 +8,7 @@ function RegisterPage() {
 
   const handleRegister = async () => {
     try {
-      const response = await fetch('http://localhost:3000/users', {
+      const response = await fetch('https://ecommerce-boilerplate-kappa.vercel.app/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
