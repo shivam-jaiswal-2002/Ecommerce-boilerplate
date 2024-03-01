@@ -12,7 +12,7 @@ function ProductsPage() {
 
   useEffect(() => {
     // Fetch products from API
-    fetch('http://localhost:3000/products')
+    fetch('https://ecommerce-boilerplate-kappa.vercel.app/products')
       .then((response) => response.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error('Error fetching products:', error));
